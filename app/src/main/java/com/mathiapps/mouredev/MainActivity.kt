@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity() {
     private fun sentenciaIf2() {
 
         val myNumber = 15
-        if (!(myNumber < 10 && myNumber >= 5 || myNumber == 53)) {  //Al poner (!("datos")) se va a contradecir todo es decir si era: myNumber < 10, ahora sería: myNumber > 10
+        if (!(myNumber < 10 && myNumber >= 5 || myNumber == 53)) {  //Al poner (!("datos")) se va a contradecir todo, es decir si era: myNumber < 10, ahora sería: myNumber > 10
             println("$myNumber es menor que 10 y mayor o igual que 5 o es igual a 53")
         }
 
@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity() {
             println("$myNumber es igual que 10")
         }
 
-
+        //Prueba Github
     }
 
 }
